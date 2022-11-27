@@ -1,0 +1,186 @@
+[
+    {
+        "name":"Madra",
+        "key_name":"madra",
+        "bgm": {
+            "key": "madra_bgm",
+            "path": "assets/sounds/bgm/little_madra.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/madra/madra.png",
+            "json":"assets/images/maps/madra/madra.json"
+        },
+        "lazy_load": true,
+        "collision_embedded": true
+    },{
+        "name":"Madra",
+        "key_name":"madra_inn",
+        "collision_key_names":["madra_inn_down"],
+        "bgm": {
+            "key": "madra_bgm",
+            "path": "assets/sounds/bgm/little_madra.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/madra/Inside_town_00.png",
+            "json":"assets/images/maps/madra/inn_down.json"
+        },
+        "collision_files":["assets/images/maps/madra/madra_physics_inn.json"],
+        "collision_embedded": false
+    },{
+        "name":"Madra",
+        "key_name":"madra_inn_up_stair",
+        "collision_key_names":["madra_inn_up_stair"],
+        "bgm": {
+            "key": "madra_bgm",
+            "path": "assets/sounds/bgm/little_madra.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/madra/Inside_town_00.png",
+            "json":"assets/images/maps/madra/inn_up_stair.json"
+        },
+        "collision_files":["assets/images/maps/madra/madra_physics_inn_up_stair.json"],
+        "collision_embedded": false
+    },{
+        "name":"Madra",
+        "key_name":"madra_inn_up",
+        "collision_key_names":["madra_inn_up"],
+        "bgm": {
+            "key": "madra_bgm",
+            "path": "assets/sounds/bgm/little_madra.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/madra/Inside_town_00.png",
+            "json":"assets/images/maps/madra/inn_up.json"
+        },
+        "collision_files":["assets/images/maps/madra/madra_physics_inn_up.json"],
+        "collision_embedded": false
+    },{
+        "name":"Madra",
+        "key_name":"madra_house_1",
+        "collision_key_names":["madra_house_1"],
+        "bgm": {
+            "key": "madra_bgm",
+            "path": "assets/sounds/bgm/little_madra.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/madra/Inside_town_00.png",
+            "json":"assets/images/maps/madra/house_1.json"
+        },
+        "collision_files":["assets/images/maps/madra/madra_physics_house_1.json"],
+        "collision_embedded": false
+    },{
+        "name":"Madra",
+        "key_name":"madra_church",
+        "bgm": {
+            "key": "madra_bgm",
+            "path": "assets/sounds/bgm/little_madra.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/madra/Inside_town_00.png",
+            "json":"assets/images/maps/madra/church.json"
+        },
+        "lazy_load": true,
+        "collision_embedded": true
+    },{
+        "name":"Madra",
+        "key_name":"madra_side",
+        "bgm": {
+            "key": "madra_bgm",
+            "path": "assets/sounds/bgm/little_madra.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/madra/madra.png",
+            "json":"assets/images/maps/madra/madra_side.json"
+        },
+        "lazy_load": true,
+        "collision_embedded": true
+    },{
+        "name":"Madra",
+        "key_name":"madra_corner",
+        "bgm": {
+            "key": "madra_bgm",
+            "path": "assets/sounds/bgm/little_madra.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/madra/madra.png",
+            "json":"assets/images/maps/madra/madra_corner.json"
+        },
+        "lazy_load": true,
+        "collision_embedded": true
+    },{
+        "name":"Madra",
+        "key_name":"madra_cave",
+        "bgm": {
+            "key": "cave_bgm",
+            "path": "assets/sounds/bgm/cave.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/cave/cave.png",
+            "json":"assets/images/maps/madra/madra_cave.json"
+        },
+        "lazy_load": true,
+        "collision_embedded": true,
+        "background_key": "bg_cave"
+    },{
+        "name":"Snowland",
+        "key_name":"snowland",
+        "collision_key_names":["snowland_col"],
+        "bgm": {
+            "key": "snowland",
+            "path": "assets/sounds/bgm/snowland.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/snowland/snowland.png",
+            "json":"assets/images/maps/snowland/snowland.json"
+        },
+        "collision_files":["assets/images/maps/snowland/snowland_physics.json"],
+        "collision_embedded": false,
+        "lazy_load": true
+    },{
+        "name":"World Map",
+        "key_name":"world_map",
+        "bgm": {
+            "key": "world_map",
+            "path": "assets/sounds/bgm/world_map.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/world_map/world_map.png",
+            "json":"assets/images/maps/world_map/world_map.json"
+        },
+        "lazy_load": true,
+        "collision_embedded": true,
+        "expected_party_level": 18,
+        "background_key": "bg_world_map",
+        "show_map_name": false
+    },{
+        "name":"Cave",
+        "key_name":"cave",
+        "bgm": {
+            "key": "cave_bgm",
+            "path": "assets/sounds/bgm/cave.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/cave/cave.png",
+            "json":"assets/images/maps/cave/cave.json"
+        },
+        "lazy_load": true,
+        "collision_embedded": true,
+        "expected_party_level": 21,
+        "background_key": "bg_cave"
+    },{
+        "name":"Nyungwe",
+        "key_name":"nyungwe",
+        "bgm": {
+            "key": "forest_bgm",
+            "path": "assets/sounds/bgm/happy_town.ogg"
+        },
+        "tileset_files": {
+            "image":"assets/images/maps/forest/forest.png",
+            "json":"assets/images/maps/forest/forest.json"
+        },
+        "lazy_load": true,
+        "collision_embedded": true,
+        "expected_party_level": 18,
+        "background_key": "forest"
+    }
+]
